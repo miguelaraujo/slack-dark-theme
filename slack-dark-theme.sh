@@ -26,3 +26,5 @@ sudo tee -a "${SLACK_FILE_PATH}" > /dev/null <<< "$JS"
 sudo npx asar pack ${SLACK_RESOURCES_DIR}/app.asar.unpacked ${SLACK_RESOURCES_DIR}/app.asar
 
 echo "Successfuly updated Slack to use the dark theme."
+
+exit 0
